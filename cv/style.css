@@ -1,0 +1,79 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(240, 237, 245);
+    color: rgb(27, 20, 20);
+}
+.space-section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 60px;
+    display: inline-block;
+    
+
+}
+.top {
+    text-align: justify;
+    margin-left: 30px;
+}
+.icon i{
+    padding-left: 5px;
+    text-align: center;
+}
+
+.about ul li{
+    float: left;
+   list-style: none;
+   padding: 2%;
+   width: 40%;
+   
+}
+
+.skill{
+    display: flex;
+}
+.skill div{
+    margin-left: 30px;
+    width: 41%;
+}
+
+
+
+table  caption{
+    
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(100, 148, 237, 0.192);
+
+}
+th{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+tr,th,td{
+    padding: 10px;
+    text-align: center;
+} 
+
+
+li,td{
+    font-size: 20px;
+    line-height: 30px;
+}
+span{
+    background-color: rgba(64, 224, 208, 0.322);
+    
+}
+ 
+footer{
+    height: 30px;
+    background-color: rgba(227, 236, 236, 0.808);
+    padding: 10px;
+    
+}

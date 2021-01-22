@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+}
+
+.orange-highlight{
+    color: rgb(238, 14, 81);
+}
+h4,p{
+    text-align:justify;
+    padding-bottom: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 60%;
+    padding-left: 60px;
+}
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+   
+}
+section{
+    height: 400px;
+    padding-bottom: 50px;
+   
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: orangered;
+    padding-right: 40px;
+    transition: 0.5s;
+}
+
+
+.dream-area{
+    background-image: url("dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exprience-area,.education{
+    height: 200px;
+    margin-left: 133px;
+    padding-bottom: 150px;
+}
+.single-exp{
+   
+    box-shadow: 10px 10px 30px gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width: 25%;
+    height: 90%;
+    
+}
+.single-exp p{
+    text-align: justify;
+    padding-left: 10px;
+}
+
+#full-stack{
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(31, 196, 133),tomato);
+    border-image-slice: 1 ;
+}
+
+#baby-web{
+    border-left: 5px solid;
+    border-image:linear-gradient(rgb(146, 122, 255),rgb(219, 53, 23));
+    border-image-slice: 1 ;
+}
+
+
+table{
+    background-color: rgb(234, 235, 241);
+    color: black;
+    margin: auto;
+}
+table > caption{
+    color: white;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgba(7, 7, 22, 0.747);
+    padding: 10px;
+
+}
+th{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+tr,th,td{
+    padding: 10px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
