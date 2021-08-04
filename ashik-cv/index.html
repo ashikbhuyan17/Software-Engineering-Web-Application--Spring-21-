@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Responsive CV/Resume HTML Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+  <style>
+    html,
+    body {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif;
+      overflow-x: hidden;
+      position: relative;
+      vertical-align: baseline;
+      background-color: #7f5a83;
+      background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 24px;
+    }
+
+    h5 {
+      font-size: 20px;
+    }
+
+    h6 {
+      font-size: 18px;
+    }
+
+    h2 {
+      padding-bottom: 14px;
+    }
+
+    .tm-title {
+      color: #66ccff;
+    }
+
+    .white {
+      color: #fff;
+    }
+
+    .about,
+    .skills,
+    .education,
+    .languages,
+    .contact,
+    .experience {
+      padding: 40px;
+      min-height: 330px;
+    }
+
+    .education,
+    .languages,
+    .contact,
+    .experience {
+      margin-top: 30px;
+    }
+
+    header {
+      text-align: center;
+      min-height: 400px;
+      overflow: hidden;
+      position: relative;
+      padding-top: 160px;
+      padding-bottom: 140px;
+    }
+
+    /* header img {
+      display: inline-block !important;
+      border: 3px solid white;
+      padding: 5px;
+    }  */
+
+    header h2 {
+      padding-top: 40px;
+    }
+
+    /* about section */
+    .about {
+      background: #fff;
+      box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.08);
+    }
+
+    /* skills section */
+    .skills {
+      background: #060f20;
+      color: #f5f5f5;
+    }
+
+    .skills .progress {
+      border-radius: 0px;
+      height: 4px;
+    }
+
+    .skills .progress .progress-bar-primary {
+      background: #204090;
+    }
+
+    .skills strong {
+      display: inline-block;
+      font-weight: normal;
+      padding-bottom: 6px;
+    }
+
+    /* education section */
+    .education {
+      background: #3366cc;
+      color: #f5f5f5;
+    }
+
+    .education .education-content {
+      padding-bottom: 14px;
+    }
+
+    .education h5 {
+      display: inline-block;
+    }
+
+    .education span {
+      padding-right: 10px;
+      padding-left: 20px;
+    }
+
+    /* languages section */
+    .languages {
+      background: #fff;
+    }
+
+    .languages ul {
+      padding: 10px;
+    }
+
+    .languages ul li {
+      padding-bottom: 6px;
+    }
+
+    /* contact section */
+    .contact {
+      background: #fff;
+    }
+
+    .contact .fa {
+      padding-right: 6px;
+    }
+
+    /* experience section */
+    .experience {
+      background: #3366cc;
+      color: #f5f5f5;
+    }
+
+    .experience-content {
+      padding-bottom: 14px;
+    }
+
+    .experience h5 {
+      display: inline-block;
+    }
+
+    .experience span {
+      padding-right: 10px;
+      padding-left: 20px;
+    }
+
+    /* footer section */
+    footer {
+      color: #f9f9f9;
+      text-align: center;
+      padding-top: 140px;
+      padding-bottom: 100px;
+    }
+
+    /* social icon section */
+    .social-icons {
+      padding: 0;
+      margin: 0;
+    }
+
+    .social-icons li {
+      display: inline-block;
+      list-style: none;
+    }
+
+    .social-icons li a {
+      background: #3366cc;
+      border-radius: 50%;
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      transition: all 0.4s ease-in;
+      position: relative;
+      bottom: 10px;
+      top: 10px;
+    }
+
+    .social-icons li a:hover {
+      background: #202020;
+      color: #fff;
+    }
+
+    @media (max-width: 980px) {
+      .skills {
+        margin-top: 30px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .about h2 {
+        font-size: 24px;
+      }
+
+      .education h4,
+      .experience h4 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header section -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/ashik.png" width="350px" />
+
+          <h1 class="white">Ashik Bhuyan</h1>
+          <h3 class="white">Web Developer || Web Designer</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- about and skills section -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="about">
+          <h2>About Me</h2>
+          <p>
+            I'm a passionate programmer with vast knowledge about Java, Python(Django) and JavaScript with React. I like
+            to create Web-site and Develop website. i am punctual , dependable and can be counted upon to finish what i
+            start. I love cosmology and astrophysics. I am a curious mind always seeking the meaning of life and like to
+            reveal the mysteries of the cosmos. I love to teach other people how to learn things . To me, perception is
+            more important than knowledge.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skills">
+          <h2 class="white">Skills</h2>
+          <strong>Python</strong>
+          <span class="pull-right">70%</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+              aria-valuemax="100" style="width: 70%"></div>
+          </div>
+          <strong>Django</strong>
+          <span class="pull-right">85%</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+              aria-valuemax="100" style="width: 85%"></div>
+          </div>
+          <strong>Bootstrap</strong>
+          <span class="pull-right">95%</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+              aria-valuemax="100" style="width: 95%"></div>
+          </div>
+          <strong>Html-css3-Sass</strong>
+          <span class="pull-right">80%</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 80%"></div>
+          </div>
+
+          <strong>JavaScript</strong>
+          <span class="pull-right">50%</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- education and languages -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="education">
+          <h1 class="white">Education</h1>
+          <p class="education-description">
+          <h3>BSc in Software Engineering</h3>
+          </p>
+
+          <h>Daffodil International University – 2018 continue <br /></h>
+          <h3>Higher Secondary Certificate (HSC) </h3>
+          <p> Uttara Model Collage– 2016-2018</p>
+          <h3>Higher Secondary Certificate (HSC) </h3>
+          <p> Aftab uddin school & Collage– 2014-2016</p><br>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English – Medium</li>
+            <li>Bangla – Native Language</li>
+            <li>Hindi - Fluent</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact and experience -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="contact">
+          <h2>Contact</h2>
+          <p>
+            <i class="fa fa-map-marker"></i> 40/a, R#7, Shekhertek,
+            Mohammadpur, Dhaka, Bangladesh
+          </p>
+          <p><i class="fa fa-phone"></i> 01793605043</p>
+          <p><i class="fa fa-envelope"></i> ashik35-2585@diu.edu.bd</p>
+          <p><i class="fa fa-globe"></i>ashik17.herokuapp.com/</p>
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-12">
+        <div class="experience">
+          <h2 class="white">Experiences</h2>
+          <div class="experience-content">
+            <ul class="works">
+              <li>Oneline-Real-Estate(Python,Django)</li>
+              <li> Oneline-Service-Market (C)</li>
+              <li>Personal-portfolio (Python,Django)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <ul class="social-icons">
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-google-plus"></a></li>
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-dribbble"></a></li>
+            <li><a href="#" class="fa fa-github"></a></li>
+            <li><a href="#" class="fa fa-behance"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
